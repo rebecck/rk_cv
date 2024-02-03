@@ -1,0 +1,69 @@
+.background {
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url("../../home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 12px;
+}
+
+nav > ul {
+  display: flex;
+  gap: 12px;
+}
+
+#title-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2vw;
+  align-self: flex-start;
+}
+
+ul,
+li,
+a,
+.tag {
+  text-decoration: none;
+  list-style-type: none;
+  color: rgb(230, 230, 230);
+}
+
+a:hover {
+  color: rgb(92, 95, 95);
+}
+
+.icon {
+  color: aliceblue;
+  background-color: aliceblue;
+  border-radius: 9px;
+  width: 28px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-left: 24px;
+}
+
+.link {
+  background-color: aliceblue;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  padding: 3px 4px;
+  border-radius: 7px;
+}

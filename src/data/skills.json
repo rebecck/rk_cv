@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Java",
+    "skill": "Grundläggande",
+    "note": "Gjort projekt i Gjort projekt i Gjort projekt i. Gjort projekt i Gjort projekt i Gjort projekt i.",
+    "url": "https://cdn.iconscout.com/icon/free/png-256/free-java-2038875-1720088.png",
+    "level": 3
+  },
+  {
+    "title": "SQL",
+    "skill": "Grundläggande",
+    "note": "Gjort projekt i",
+    "url": "https://cdn-icons-png.flaticon.com/512/4299/4299956.png",
+    "level": 3
+  },
+  {
+    "title": "Html",
+    "skill": "Grundläggande",
+    "note": "Gjort projekt i",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png",
+    "level": 2
+  },
+  {
+    "title": "Javascript",
+    "skill": "Grundläggande",
+    "note": "Gjort projekt i",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Javascript_badge.svg/1200px-Javascript_badge.svg.png",
+    "level": 3
+  }
+]
