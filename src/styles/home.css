@@ -1,14 +1,40 @@
+html,
+body,
+#root {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.922);
+}
+
 .background {
   background-color: rgba(0, 0, 0, 0.8);
   background-image: url("../../home.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
-  height: 100vh;
+  height: 100%;
+  min-width: 448px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  /* border: 2px solid red; */
+}
+
+main {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: auto;
+  margin-left: 12px;
+  margin-bottom: 5px;
+}
+
+.main-header {
+  margin-right: auto;
+  margin-left: 6px;
+  font-size: 7rem;
 }
 
 .header {
@@ -22,13 +48,14 @@
 nav > ul {
   display: flex;
   gap: 12px;
+  margin: 0px;
 }
 
 #title-name {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 2vw;
+  font-size: 2rem;
   align-self: flex-start;
 }
 
@@ -66,4 +93,33 @@ a:hover {
   font-weight: 700;
   padding: 3px 4px;
   border-radius: 7px;
+}
+
+/*Card container*/
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  min-height: 100px;
+}
+
+.test {
+  width: 200px;
+}
+
+.temp {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: auto;
+  padding-bottom: 50px;
 }

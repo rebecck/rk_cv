@@ -1,10 +1,42 @@
-.card-list {
+.card-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 22px;
   margin-top: auto;
-  margin-bottom: 50px;
+  min-width: 448px;
+  /* border: 2px solid lime; */
+  margin-inline: auto;
+  max-width: 100%;
+  margin: auto;
+  /* margin-bottom: 12px; */
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 710px;
+  gap: 22px;
+  /* border: 2px solid orange; */
+  margin-top: auto;
+}
+
+/*@media (max-width: 725px) {
+  .card-wrapper {
+    overflow-y: scroll; /* Adjust the width for smaller screens */
+/*}
+} */
+
+.card-arrow {
+  width: 38px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-arrow:hover {
+  background-color: rgba(100, 100, 100, 0.9);
 }
 
 .card-container {
@@ -27,7 +59,13 @@
   background-color: aliceblue;
   padding: 5px;
   border-radius: 5px;
+  width: 70px;
+  height: 70px;
   /* border-radius: 500px; */
+}
+
+#note {
+  text-align: center;
 }
 
 .skill-icon {

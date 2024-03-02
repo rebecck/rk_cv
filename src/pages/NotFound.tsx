@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 export default function NotFound() {
   return (
-    <div style={{ color: "black" }}>
+    <div style={{ color: "white" }}>
       404 Not Found
       <br />
-      <Link to="/" style={{ color: "black" }}>
+      <Link to="/" style={{ color: "white" }}>
         Home
       </Link>
     </div>

@@ -5,6 +5,7 @@ import NotFound from "./pages/NotFound";
 import Work from "./pages/Work";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Projects from "./pages/Projects";
 
 const router = createBrowserRouter([
   {
@@ -20,9 +21,13 @@ const router = createBrowserRouter([
     path: "/education",
     element: <Education />,
   },
+  // {
+  //   path: "/contact",
+  //   element: <Contact />,
+  // },
   {
-    path: "/contact",
-    element: <Contact />,
+    path: "/projects",
+    element: <Projects />,
   },
 ]);
 

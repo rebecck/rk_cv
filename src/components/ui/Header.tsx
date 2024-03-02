@@ -23,24 +23,40 @@ export default function Header() {
               Education
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/contact" className="tag">
               Contact
+            </Link>
+          </li> */}
+          <li>
+            <Link to="/projects" className="tag">
+              Projects
             </Link>
           </li>
         </ul>
       </nav>
       {/* Could add icon to a component, but then I need to pass props */}
       <div className="icons">
-        <a href="#" style={{ height: "28px" }}>
+        {/* <a
+          href="https://se.linkedin.com"
+          style={{ height: "28px" }}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img className="icon" src="../../linkedin.png" />
-        </a>
-        <a href="#" style={{ height: "28px" }}>
+        </a> */}
+        {/* <a
+          href="https://github.com"
+          style={{ height: "28px" }}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <img
             className="icon"
             src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
           />
-        </a>
+        </a> */}
+        {/* <img className="icon" src="../../code.svg" /> */}
         {/* <PdfLink /> */}
       </div>
     </header>

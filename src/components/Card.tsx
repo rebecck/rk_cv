@@ -22,7 +22,9 @@ export default function Card({ skill }: Props) {
       </div>
       <p className="card-title">{skill.title}</p>
       <div className="cubes">{cubes}</div>
-      <p className="note">{skill.note}</p>
+      <p id="note" className="note">
+        {skill.note}
+      </p>
     </div>
   );
 }
