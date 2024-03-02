@@ -4,7 +4,7 @@ import { Skill } from "../types/SkillType";
 import CardList from "../components/CardList";
 import Header from "../components/ui/Header";
 import { useEffect, useState } from "react";
-import Footer from "../components/ui/Footer";
+//import Footer from "../components/ui/Footer";
 
 export default function Home() {
   const skills: Skill[] = importSkills.map((skillItem) => {

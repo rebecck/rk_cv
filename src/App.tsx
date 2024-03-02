@@ -1,4 +1,4 @@
-import Contact from "./pages/Contact";
+//import Contact from "./pages/Contact";
 import Education from "./pages/Education";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
